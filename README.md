@@ -1,9 +1,27 @@
-# React TypeScript Starter Pack
+# 2048 Game
 
-To use this template click `Use this template`
+A simple, responsive implementation of the classic 2048 puzzle game, built with HTML, SCSS, and JavaScript (ES6 modules).
 
-### Available Scripts
+## 🚀 Live Demo
 
-`Deploy` - available to deploy your application to gh-pages, to deploy the project, change the second line of code in package.json, specifically the homepage value, from "." to the repository name
+Experience the live version of the game:
+👉 [View Demo](https://roman-logos-frontend.github.io/2048-landing-game/)
 
-`SCSS Preprocessor` - available to write your styles with modern style language
+## 🛠 Technologies Used
+
+- **HTML5**
+- **SCSS (Sass)** – version `1.72.0`
+- **JavaScript ES6** (modules and classes)
+- **BEM** methodology for CSS
+- **Favicon** generated from text using [favicon.io](https://favicon.io/favicon-generator/)
+
+## 🎮 Features
+
+- 🧩 4×4 dynamic game board
+- 🧠 Class-based game logic (`Game.class.js`)
+- 🎯 Score tracking with win/lose detection
+- 🕹️ Keyboard controls (arrow keys)
+- 🔄 Start / Restart buttons
+- 💬 User feedback messages (start, win, lose)
+- 📱 Responsive layout
+- 🧼 Clean and modular codebase
