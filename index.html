@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>2048 puzzle game</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/2048-landing-game/assets/apple-touch-icon-C8SBV9eY.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/2048-landing-game/assets/favicon-32x32-DsTn5EVp.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/2048-landing-game/assets/favicon-16x16-CS8tVGTD.png">
+    <link
+      rel="manifest"
+      href="/2048-landing-game/assets/site-hqR1cS0N.webmanifest"
+    />
+    <script type="module" crossorigin src="/2048-landing-game/assets/index-kPfmOxCs.js"></script>
+    <link rel="stylesheet" crossorigin href="/2048-landing-game/assets/index-DfdKssRx.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="game-header">
+        <h1>2048</h1>
+        <div class="controls">
+          <p class="info">
+            Score:
+            <span class="game-score">0</span>
+          </p>
+          <button class="button start">Start</button>
+          <button class="button restart hidden">Restart</button>
+        </div>
+      </div>
+
+      <table class="game-field">
+        <tbody>
+          <tr class="field-row">
+            <td class="field-cell"></td>
+            <td class="field-cell"></td>
+            <td class="field-cell"></td>
+            <td class="field-cell"></td>
+          </tr>
+
+          <tr class="field-row">
+            <td class="field-cell"></td>
+            <td class="field-cell"></td>
+            <td class="field-cell"></td>
+            <td class="field-cell"></td>
+          </tr>
+
+          <tr class="field-row">
+            <td class="field-cell"></td>
+            <td class="field-cell"></td>
+            <td class="field-cell"></td>
+            <td class="field-cell"></td>
+          </tr>
+
+          <tr class="field-row">
+            <td class="field-cell"></td>
+            <td class="field-cell"></td>
+            <td class="field-cell"></td>
+            <td class="field-cell"></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="message-container">
+        <p class="message message-lose hidden">You lose! Restart the game?</p>
+        <p class="message message-win hidden">Winner! Congrats! You did it!</p>
+        <p class="message message-start">
+          Press "Start" to begin game. Good luck!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
